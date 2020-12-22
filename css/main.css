@@ -21,7 +21,7 @@ body {
 .footer {
   width: 99.5vw;
   height: 2vh;
-  background: rgba(73, 147, 221, 0.8);
+  background: rgba(73, 147, 221, 0.85);
   padding-top: 3px;
   padding-right: 0.5%;
   border: solid 0px black;
@@ -64,7 +64,7 @@ ul.menubar>li {
   border-color: rgb(17, 95, 160);
   justify-content: right;
   align-items: baseline;
-  background: rgba(73, 147, 221, 0.80);
+  background: rgba(73, 147, 221, 0.85);
   padding: 5px 12px;
   margin: 5px;
   font-size: 15px;
