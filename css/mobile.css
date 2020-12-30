@@ -3,6 +3,7 @@
 body {
   display: block;
   margin: 0px;
+  text-align: center;
 }
 
 .map {
@@ -19,7 +20,7 @@ body {
 }
 
 .footer {
-  width: 99.5vw;
+  width: 100vw;
   height: 2vh;
   background: rgba(73, 147, 221, 0.85);
   padding-top: 3px;
@@ -34,7 +35,7 @@ body {
 }
 
 .logo {
-  width: 501px;
+  width: 90%;
   height: fit-content;
   padding: 0px;
   border: solid 0px black;
@@ -42,6 +43,10 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.logo_img {
+width: 100%;
 }
 
 ul.menubar {
