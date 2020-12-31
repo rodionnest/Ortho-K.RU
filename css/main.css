@@ -59,7 +59,7 @@ body {
 
 .footer {
   width: 100vw;
-  height: 2vh;
+  height: fit-content;
   background: rgba(73, 147, 221, 0.85);
   padding-top: 3px;
   padding-right: 0.5%;
