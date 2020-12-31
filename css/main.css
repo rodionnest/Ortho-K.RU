@@ -82,20 +82,8 @@ body {
   left: 20px;
 }
 
-
-
-
-
 .logo_img {
 width: 501px;
-}
-
-ul.menubar {
-  height: <x>px;
-}
-
-ul.menubar>li {
-  float: left;
 }
 
 .requestbutton {
@@ -138,8 +126,8 @@ ul.menubar>li {
 .tooltip:after {
   content: attr(data-tooltip);
   background: rgba(255, 52, 102, 0.85);
-  width: 160px;
-  height: 55px;
+  /* width: 160px; */
+  /* height: 75px; */
   font-size: 13px;
   font-weight: 300;
   top: 45px;
@@ -154,26 +142,4 @@ ul.menubar>li {
 .tooltip:hover::after {
   opacity: 1;
   transform: translateY(-2px);
-}
-
-/* @keyframes shake {
-  0% {
-    transform: rotate(1deg);
-  }
-
-  50% {
-    transform: rotate(-2deg);
-  }
-
-  70% {
-    transform: rotate(2deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-} */
-
-#anim:hover {
-  animation: shake 500ms ease-in-out forwards;
 }

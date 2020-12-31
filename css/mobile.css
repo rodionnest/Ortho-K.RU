@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body {
   display: block;
   margin: 0px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .map {
@@ -72,7 +72,7 @@ body {
 }
 
 .logo {
-  width: 501px;
+  width: 100%;
   height: fit-content;
   padding: 0px;
   border: solid 0px black;
@@ -82,20 +82,10 @@ body {
   left: 20px;
 }
 
-
-
-
-
 .logo_img {
-width: 501px;
-}
-
-ul.menubar {
-  height: <x>px;
-}
-
-ul.menubar>li {
-  float: left;
+width: 75%;
+max-width: 550px;
+min-width: 525px;
 }
 
 .requestbutton {
@@ -105,7 +95,7 @@ ul.menubar>li {
 }
 
 .tooltip {
-  border-width: 2px 2px 2px 2px;
+  border-width: 2px;
   border-style: solid;
   border-color: rgb(17, 95, 160);
   justify-content: right;
@@ -113,7 +103,7 @@ ul.menubar>li {
   background: rgba(73, 147, 221, 0.85);
   padding: 5px 12px;
   margin: 5px;
-  font-size: 15px;
+  font-size: 25px;
   border-radius: 10px;
   color: #FFF;
 }
@@ -138,8 +128,8 @@ ul.menubar>li {
 .tooltip:after {
   content: attr(data-tooltip);
   background: rgba(255, 52, 102, 0.85);
-  width: 160px;
-  height: 55px;
+  /* width: 160px; */
+  /* height: 75px; */
   font-size: 13px;
   font-weight: 300;
   top: 45px;
@@ -154,26 +144,4 @@ ul.menubar>li {
 .tooltip:hover::after {
   opacity: 1;
   transform: translateY(-2px);
-}
-
-/* @keyframes shake {
-  0% {
-    transform: rotate(1deg);
-  }
-
-  50% {
-    transform: rotate(-2deg);
-  }
-
-  70% {
-    transform: rotate(2deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-} */
-
-#anim:hover {
-  animation: shake 500ms ease-in-out forwards;
 }
