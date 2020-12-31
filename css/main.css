@@ -62,9 +62,10 @@ body {
   height: fit-content;
   background: rgba(73, 147, 221, 0.85);
   padding-top: 3px;
+  padding-bottom: 3px;
   padding-right: 0.5%;
   border: solid 0px black;
-  font-size: 12px;
+  font-size: 0.8em;
   color: rgba(255, 255, 255, 0.8);
   float: right;
   position: absolute;
